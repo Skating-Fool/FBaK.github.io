@@ -1,0 +1,33 @@
+html{
+    
+    font-family: Arial;
+    border:      3px solid #ff9100;
+    height:      99.2%;
+
+}
+body{
+    
+    padding:            5px; 
+    color:            #FF9100;/*
+    background-image: url("../images/reflectivity_10.jpg");
+    background-size: 256px;*/
+    background-color: rgb(0, 0, 0);
+
+}
+img{
+
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+}
+div{
+
+    position: fixed;
+    bottom: 6px;
+    left: 10px;
+
+}
+header{
+    text-align: center;
+}
