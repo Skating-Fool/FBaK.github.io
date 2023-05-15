@@ -134,7 +134,7 @@ body.dark
 	visibility: hidden;
 	white-space: nowrap;
 }
-.serverName{
+#serverName{
 
 	color: #ff6900;
 
