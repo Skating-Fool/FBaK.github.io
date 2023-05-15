@@ -174,3 +174,13 @@ body.dark{
 	margin-right: 16px;
 
 }
+footer{
+
+	color: #ff9100;
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.6em;
+
+}
