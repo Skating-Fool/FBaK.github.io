@@ -28,8 +28,8 @@
 
 					<span id="serverName">[SERVER NAME]</span><br>
 					<span id="serverMap">[MAP NAME]</span><br>
-					<span id="serverGamemode">[GAME MODE]</span>
-					<span><i class="icon-people"></i> {5}/12 players online</span>
+					<span id="serverGamemode">[GAME MODE]</span><br>
+					<span>Max Players</span><span id="maxplayers">[MAX PLAYERS]</span><br>
 
 				</div>
 
@@ -42,7 +42,7 @@
 
 		<footer>
 
-			<p>Version b1.1 5/15/23</p>
+			<p>Version b1.2 5/15/23</p>
 
 		</footer>
 
@@ -67,6 +67,7 @@
 				$("#serverName").text( servername );
 				$("#serverMap").text( mapname );
 				$("#serverGamemode").text( gamemodeNice );
+				$("#maxplayers").text(maxplayers);
 				$("#mapimg").attr("src", "asset://mapimage/" + mapname );
 				//$("body").css( "background-image", "url( 'asset://mapimage/" + mapname + "' )" );
 
