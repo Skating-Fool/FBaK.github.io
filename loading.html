@@ -5,7 +5,8 @@
 		<title>Loading..</title>
 		<link rel="stylesheet" type="text/css" href="css/loading.css" />
 		<script type="text/javascript" src="js/thirdparty/jquery.js"></script>
-
+		<script src="js/background_loop.js"></script>
+		
 	</head>
 
 	<body>
@@ -45,7 +46,7 @@
 
 			<iframe src="https://cache.gametracker.com/components/html0/?host=144.48.104.107:27045&bgColor=000000&fontColor=d1d1d1&titleBgColor=000000&titleColor=ff9900&borderColor=ff8800&linkColor=ff7b00&borderLinkColor=000000&showMap=0&currentPlayersHeight=200&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=240" frameborder="0" scrolling="no" width="240" height="388" name="GameTracker Embed"></iframe>
 			&lArr; A bit delayed
-			<p>Version r1.2-1 5/15/23</p>
+			<p>Version r1.3 6/28/23</p>
 
 		</footer>
 
@@ -54,7 +55,7 @@
 			window.onload = function()
 			{
 				var isHalloween = false;
-
+				
 				var today = new Date()
 				if ( today.getMonth() == 10 && today.getDate() >= 15 || today.getMonth() == 11 && today.getDate() <= 5 ) isHalloween = true;
 

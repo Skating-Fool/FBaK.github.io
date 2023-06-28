@@ -1,11 +1,11 @@
-BODY{
+body{
 
 	overflow: hidden;
 	margin: 0px;
-
+	background-color: black;
 	background-position: center;
 	background-size: cover;
-
+    background-image: url("../backgrounds/img0.jpg");
 	border: 0.2em solid #ff9100;
 
 }
@@ -116,17 +116,20 @@ BODY{
 	max-height: 90%;
 	
 }
+
 #background{
 
-	/*background-image: url( 'img/bg.png' );*/
+	/*
+	background-image: url( 'img/bg.png' );
 	background-color: black;
 	background-size: 100% 100%;
 	height: 100%;
+	*/
 
 }
 body.dark #background{
 
-	background-image: url( 'img/bg_dark.png' );
+	/*background-image: url( 'img/bg_dark.png' );*/
 
 }
 body.dark{
